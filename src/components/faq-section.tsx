@@ -20,7 +20,7 @@ const faqItems = [
   {
     question: 'How do I schedule a consultation?',
     answer:
-      'You can schedule a consultation by filling out the contact form on this website, calling my office at (123) 456-7890, or sending me an email. I will get back to you promptly to arrange a convenient time.',
+      'You can schedule a consultation by filling out the contact form on this website, calling my office at +91 9045404468, or sending me an email. I will get back to you promptly to arrange a convenient time.',
   },
   {
     question: 'What should I bring to my first consultation?',
