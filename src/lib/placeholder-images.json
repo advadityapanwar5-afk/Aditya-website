@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "cta-banner-bg",
+      "description": "A warm, inviting law office library",
+      "imageUrl": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYXclMjBsaWJyYXJ5fGVufDB8fHx8MTc2NTM1ODc4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "law library"
+    },
+    {
+      "id": "blog-1",
+      "description": "A gavel and law books",
+      "imageUrl": "https://images.unsplash.com/photo-1575282343536-469af953c6e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXclMjBib29rc3xlbnwwfHx8fDE3NjUzNTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "law books"
+    },
+    {
+      "id": "blog-2",
+      "description": "A person signing a document",
+      "imageUrl": "https://images.unsplash.com/photo-1681505531034-8d67054e07f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaWduaW5nJTIwZG9jdW1lbnR8ZW58MHx8fHwxNzY1MzM4MDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "signing document"
+    },
+    {
+      "id": "blog-3",
+      "description": "A modern office building",
+      "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjUzMDA0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office building"
+    },
+    {
+      "id": "blog-4",
+      "description": "A family walking together with a child on the shoulders.",
+      "imageUrl": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGF3JTIwZmlybXxlbnwwfHwwfHx8MA",
+      "imageHint": "family law"
+    },
+    {
+      "id": "blog-5",
+      "description": "An empty courtroom with wooden benches and the judge's bench in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1575282343536-469af953c6e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXclMjBib29rc3xlbnwwfHx8fDE3NjUzNTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "criminal defense"
+    },
+    {
+      "id": "blog-6",
+      "description": "A close-up of a contract being reviewed with a pen.",
+      "imageUrl": "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "contract law"
+    }
+  ]
+}
