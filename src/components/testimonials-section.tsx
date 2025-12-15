@@ -20,37 +20,38 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: 'John D.',
+    name: 'Rajesh K.',
     caseType: 'Civil Litigation Client',
     quote:
-      "I was in a tough spot, and I couldn't have asked for a better advocate. Their professionalism, dedication, and strategic approach were instrumental in winning my case. I'm forever grateful for the outstanding legal support.",
+      "I was going through a very difficult situation and honestly felt stuck. From day one, the team guided me properly and stood by me at every step. Their knowledge, dedication, and clear strategy helped me win the case. I am truly thankful for their support.",
     rating: 5,
   },
   {
     id: 2,
-    name: 'Sarah L.',
+    name: 'Anita S.',
     caseType: 'Real Estate Client',
     quote:
-      "The real estate transaction was complex, but they made it seamless. Their attention to detail and clear communication gave me peace of mind throughout the entire process. Highly recommended for any property matters.",
+      "Buying property can be stressful, especially with all the legal formalities. They handled everything smoothly and explained each detail in simple terms. I felt confident and stress-free throughout the process. Highly recommended for property-related matters.",
     rating: 5,
   },
   {
     id: 3,
-    name: 'Michael B.',
+    name: 'Vikram M.',
     caseType: 'Corporate Law Client',
     quote:
-      'As a startup founder, navigating corporate law was daunting. I received expert guidance that was crucial for my business. The advice was not only legally sound but also practical and tailored to my company\'s needs.',
+      "As a startup founder, legal compliance was confusing for me. I received excellent guidance that was both practical and business-friendly. Their advice helped me make the right decisions at the right time. A reliable legal partner for any growing business.",
     rating: 5,
   },
-   {
+  {
     id: 4,
-    name: 'Emily R.',
+    name: 'Pooja R.',
     caseType: 'Family Law Client',
     quote:
-      'Going through a difficult family matter, I needed someone compassionate yet firm. I found that perfect balance here. I was supported and represented with both strength and sensitivity, leading to a fair resolution.',
+      "During a very sensitive family issue, I needed someone who could understand my situation and still be strong legally. I found exactly that here. They handled my case with care, patience, and professionalism, which led to a fair and positive outcome.",
     rating: 5,
   },
 ];
+
 
 export default function TestimonialsSection() {
   return (
