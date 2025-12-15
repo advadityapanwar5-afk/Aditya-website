@@ -206,8 +206,7 @@ export default function ContactSection() {
               <Clock className="h-8 w-8 text-primary mt-1 shrink-0" />
               <div>
                 <h3 className="font-bold text-lg font-headline text-foreground">Working Hours</h3>
-                <p className="text-muted-foreground">Mon - Fri: 9:00 AM - 6:00 PM</p>
-                <p className="text-muted-foreground">Sat: 10:00 AM - 2:00 PM (By Appointment)</p>
+                <p className="text-muted-foreground">Mon - Sat: 9:00 AM - 6:00 PM</p>
                 <p className="text-muted-foreground">Sun: Closed</p>
               </div>
             </div>
