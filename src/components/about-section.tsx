@@ -22,8 +22,8 @@ export default function AboutSection() {
                     <Award className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />
                   </div>
                   <div>
-                    <p className="font-bold text-2xl sm:text-3xl text-primary">1.5+</p>
-                    <p className="text-xs sm:text-sm text-muted-foreground">Years of Experience</p>
+                    <p className="font-bold text-2xl sm:text-3xl text-primary">100+</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">Cases Successfully Resolved</p>
                   </div>
                 </div>
               </div>
