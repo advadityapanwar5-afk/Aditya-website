@@ -1,11 +1,14 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
+  // Update domain here too if changed
+  const baseUrl = 'https://www.iralawoffice.in'; 
+
   return {
     rules: {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.iralawoffice.in/sitemap.xml',
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
