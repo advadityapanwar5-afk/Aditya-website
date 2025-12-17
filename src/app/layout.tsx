@@ -6,18 +6,25 @@ import DisclaimerDialog from '@/components/disclaimer-dialog';
 import WhatsappButton from '@/components/whatsapp-button';
 
 export const metadata: Metadata = {
-  title: 'Ira Law Office | Advocate Aditya Panwar',
-  description: 'Expert Legal Guidance from Ira Law Office. Led by Advocate Aditya Panwar, we provide professional legal services you can trust.',
-  metadataBase: new URL('https://www.iralawoffice.in'),
-  keywords: ['Ira Law Office', 'iralawoffice', 'Advocate Aditya Panwar', 'Legal Services', 'Lawyer', 'Law Firm'],
+  title: 'IRA Lex Terra | Advocate Aditya Panwar',
+  description: 'Expert Legal Guidance from IRA Lex Terra. Led by Advocate Aditya Panwar, we provide professional legal services you can trust in Civil, Criminal, and Corporate Law.',
+  metadataBase: new URL('https://www.iralawoffice.in'), // NOTE: If you buy a new domain (e.g., iralexterra.com), change this URL here.
+  keywords: [
+    'IRA Lex Terra', 
+    'Advocate Aditya Panwar', 
+    'Aditya Panwar Lawyer',
+    'Legal Services Delhi', 
+    'Civil Lawyer', 
+    'Criminal Defense Lawyer',
+    'Best Advocate in Delhi'
+  ],
   verification: {
     google: '_7RXa4gZX7OJJBgr-DLSleo4EfHxhFLPpsGHFVnSW_0',
-    
   },
   openGraph: {
-    title: 'Ira Law Office',
-    description: 'Expert Legal Guidance You Can Trust',
-    siteName: 'Ira Law Office',
+    title: 'IRA Lex Terra | Advocate Aditya Panwar',
+    description: 'Expert Legal Guidance You Can Trust. Specialized in Civil, Criminal, and Corporate Law.',
+    siteName: 'IRA Lex Terra',
     locale: 'en_IN',
     type: 'website',
   },
@@ -26,19 +33,23 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
-  'name': 'Ira Law Office',
-  'alternateName': ['iralawoffice', 'Advocate Aditya Panwar'],
-  'url': 'https://www.iralawoffice.in',
+  'name': 'IRA Lex Terra',
+  'alternateName': ['IRA Lex Terra', 'Advocate Aditya Panwar', 'Adv Aditya Panwar'],
+  'url': 'https://www.iralawoffice.in', // Update this if you get a new domain
   'founder': {
     '@type': 'Person',
-    'name': 'Aditya Panwar'
+    'name': 'Aditya Panwar',
+    'jobTitle': 'Advocate'
   },
   'address': {
     '@type': 'PostalAddress',
+    'streetAddress': '270 Lawyers Chamber, Delhi High Court',
+    'addressLocality': 'New Delhi',
+    'postalCode': '110003',
     'addressCountry': 'IN'
   },
   'priceRange': '$$',
-  'knowsAbout': ['Criminal Law', 'Civil Law', 'Family Law', 'Corporate Law']
+  'knowsAbout': ['Criminal Law', 'Civil Law', 'Family Law', 'Corporate Law', 'Real Estate Law']
 };
 
 export default function RootLayout({
