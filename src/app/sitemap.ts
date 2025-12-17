@@ -1,11 +1,11 @@
-import { MetadataRoute } from 'next';
-import { services } from '@/lib/services-data'; // Import your services
+import { MetadataRoute } from 'next'
+import { services } from '@/lib/services-data' //
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // TODO: Change this to your new domain if you bought one, e.g., 'https://www.iralexterra.com'
-  const baseUrl = 'https://www.iralawoffice.in'; 
+  // TODO: Update this URL if you buy a new domain like 'https://www.iralexterra.com'
+  const baseUrl = 'https://www.iralawoffice.in'
 
-  // 1. Static Routes (Main Pages)
+  // 1. Define your main static pages
   const staticRoutes = [
     {
       url: baseUrl,
@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/#about`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/#services`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.8,
@@ -31,15 +37,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.7,
     },
-  ];
+  ]
 
-  // 2. Dynamic Service Routes (Automatically adds Civil Law, Criminal Law, etc.)
+  // 2. Generate dynamic pages for each service you offer
   const serviceRoutes = services.map((service) => ({
     url: `${baseUrl}/services/${service.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
-    priority: 0.9, // High priority because these are your main offering pages
-  }));
+    priority: 0.9, // High priority for SEO
+  }))
 
-  return [...staticRoutes, ...serviceRoutes];
+  // 3. Combine them into one sitemap
+  return [...staticRoutes, ...serviceRoutes]
 }
