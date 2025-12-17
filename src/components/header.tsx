@@ -82,7 +82,7 @@ export default function Header() {
               <div className="flex h-full flex-col p-6">
                 <Link href="/" className="mb-8 flex items-center gap-2">
                   <Scale className="h-7 w-7 text-primary" />
-                  <span className="text-xl font-bold font-headline">Advocate Aditya Panwar</span>
+                  <span className="text-xl font-bold font-headline">IRA Lex Terra | Adv. Aditya Panwar</span>
                 </Link>
                 <div className="flex flex-col gap-6 text-lg">
                   {renderNavLinks(true)}
