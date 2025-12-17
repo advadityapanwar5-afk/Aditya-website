@@ -54,10 +54,10 @@ export default function HeroSection() {
       <div className="relative z-10 h-full flex flex-col justify-center items-start container mx-auto px-4 md:px-6">
         <div className="max-w-2xl text-left md:text-left">
           <h1 className="text-4xl font-headline font-bold tracking-tight text-primary sm:text-5xl lg:text-7xl text-balance">
-            Expert Legal Guidance You Can Trust
+            Welcome to IRA Lex Terra
           </h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80 text-balance">
-            Professional legal services with clarity, integrity, and proven results.
+            Professional legal services with clarity, integrity, and proven results. Led by Advocate Aditya Panwar.
           </p>
           <div className="mt-10 flex items-center gap-x-4 md:gap-x-6">
             <Button asChild size="lg" className="rounded-full shadow-lg shadow-primary/20 text-base md:text-lg py-6 px-8 md:py-7 md:px-10">
